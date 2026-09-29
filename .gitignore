@@ -1,0 +1,32 @@
+# Python & Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+.coverage
+
+# Environment Variables
+.env
+.env.local
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Machine Learning Data & Output Artifacts
+ml/data/*.csv
+ml/data/*.json
+!ml/data/.gitkeep
+ml/outputs/
+
+# IDE & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

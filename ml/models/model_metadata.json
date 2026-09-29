@@ -1,0 +1,18 @@
+{
+    "model_name": "Phishing_URL_RandomForest_v1",
+    "algorithm": "RandomForestClassifier",
+    "dataset_name": "UCI Phishing Websites Dataset (ID 327)",
+    "number_of_training_samples": 8844,
+    "number_of_test_samples": 2211,
+    "number_of_features": 30,
+    "random_state": 42,
+    "n_estimators": 200,
+    "metrics": {
+        "accuracy": 0.9742,
+        "phishing_precision": 0.9782,
+        "phishing_recall": 0.9633,
+        "phishing_f1_score": 0.9707,
+        "macro_f1_score": 0.9738
+    },
+    "training_timestamp": "2026-09-29T19:45:32.774862"
+}
